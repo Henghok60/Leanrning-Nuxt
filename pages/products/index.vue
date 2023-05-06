@@ -1,10 +1,9 @@
 <template>
-  <div>
-    <h1 class="text-red-700">hello world</h1>
-  </div>
+  <h1>hello this is product page</h1>
+  <NuxtLink :to="'/products'">product</NuxtLink>
 </template>
 <script lang="ts" setup>
 definePageMeta({
   layout: "default-layout",
 });
-</script> 
+</script>
